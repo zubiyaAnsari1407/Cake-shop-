@@ -1,0 +1,185 @@
+#cake{
+    font-family:"Meow Script", cursive;
+    list-style: none;
+    display: inline-block;
+    color:#E5BF4A;
+    font-size: 50px;
+    margin-top:-1px;
+    
+}
+li{
+    list-style: none;
+    align-items: flex-start;
+
+}
+
+   
+
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content:space-evenly;
+    padding: 9px;
+    text-align: center;
+}
+
+.call{
+    border: 1px solid #E5BF4A;
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 15px;
+    margin: bottom 110px;
+    text-transform: capitalize;
+    color: #E5BF4A;
+    padding:12px;
+    height: 20px;
+    margin-top:-1px
+}
+
+
+body{
+    background-color: black;
+}
+
+.insta{
+margin-right:px;
+  margin-top:-1px;
+}
+.twitter{
+    margin-right: 600px;
+    margin-top: -1px;
+    height: 25px;
+}
+.facebook{
+    margin-top: -1px;
+}
+#cake {
+    margin-right: 600px;
+
+}
+.nav-header{
+    color:aliceblue;
+    display: flex;
+    justify-content: space-around;
+align-content: center;
+position: fixed;
+font-family:"Jost", sans-serif;
+font-size: 15px;
+background-color: black;
+}
+#home {
+    margin-right: 90px;
+    margin-left: 600px;
+    margin-top: 20px ;
+}
+#ca{
+    margin-right: 90px;
+    margin-top: 20px ;
+}
+
+#about{
+    margin-right: 90px;
+    margin-top: 20px ;
+}
+
+#blog{
+    margin-right: 90px;
+    margin-top: 20px ;
+}
+
+#contact {
+    margin-right: 90px;
+    margin-top: 20px ;
+}
+
+.background-image{
+       margin-top: 200px;
+       width: 100%;
+       height: 100%; 
+       overlay:;
+
+}
+#image{
+    width: 99%;
+}
+.text-block{
+    position:absolute;
+    top:430px;
+    left:50px;
+    color: aliceblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 70px;
+    font-family: "Poiret One", sans-serif;
+
+}
+.btn-1{
+    position: absolute;
+    top:700px;
+    left:80px;
+    background-color: #E5BF4A;
+    border: 1px solid black;
+    color: #0A0A0A ;
+    font-size: 15px;
+  display: inline-block;
+    text-transform: uppercase;
+    line-height: 15px; 
+     border-radius: 0px;
+     padding:22px 41px;
+     
+}
+button:hover{
+   background-color:gold;
+   border-color:chocolate;
+   border-style: double;
+   
+}
+.writting-section-1{
+    color: #DFDFDF;
+    font-family: "poiret one",cursive;
+    display: block;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-bottom: 12px;
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+
+
+}
+.small-line{
+    border: none;
+    height: 1px;
+    background: #E5BF4A;
+    width: 200px;
+    margin:  auto;
+}
+ #heading {
+    font-size: 37px;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    color: #E5BF4A;
+    text-align: left;
+    margin-left: 220px;
+    line-height:60px;
+    
+}
+#random-text{
+    font-size: 35px;
+    color: #DFDFDF;
+    text-align: left;
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    margin-bottom: 200px;
+}
+.container img {
+    width: 700px;
+    height: auto;
+    margin-bottom: 200px;
+}
