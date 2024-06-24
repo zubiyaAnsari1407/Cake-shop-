@@ -1,3 +1,7 @@
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
 #cake{
     font-family:"Meow Script", cursive;
     list-style: none;
@@ -19,21 +23,17 @@ ul{
     text-align: center;
 }
 .call{
-    border: 1px solid #E5BF4A;
-    display: inline-block;
-    padding: 10px 10px;
-    font-size: 20px;
-    margin: bottom 110px;
-    text-transform: capitalize;
+   background-color:#0A0A0A;
     color: #E5BF4A;
-    padding:30px;
+    font-size: 18px;
+    padding: 11px 20px ;
+    border: 1px solid #E5BF4A;
+}
+.call:hover{
+    background-color: #E5BF4A;
+    color: #DFDFDF;
+}
 
-    height: 52px;
-    margin-top:-1px
-}
-body{
-    background-color: black;
-}
 .insta{
 margin-left:10px;
   margin-top:-1px;
@@ -54,19 +54,30 @@ margin-left:10px;
     margin-right: 600px;
 
 }
-.nav-header{
+
+.navbar {
     color:aliceblue;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 align-content: center;
-position: fixed;
+position:-webkit-sticky;
+position: sticky;
+top:0;
+z-index: 1000;
+padding: 0px;
 font-family:"Jost", sans-serif;
-font-size: 25px;
+font-size: 15px;
 background-color: black;
+list-style-type: none;
+text-align: center;
+text-transform: uppercase;
+}
+.navbar li{
+    margin: 1px 60px;
 }
 #home {
     margin-right: 90px;
-    margin-left: 600px;
+    margin-left: 200px;
     margin-top: 20px ;
 }
 #ca{
@@ -90,10 +101,10 @@ background-color: black;
 }
 
 .background-image{
-       margin-top: 200px;
+       margin-top: 50px;
        width: 100%;
        height: 100%; 
-       overlay:;
+      
 
 }
 #image{
@@ -226,28 +237,27 @@ width: 26%;
    display: inline-block;
 }
 .video-preview-image{
-    display: block;
+    display: inline-block;
+    position: relative;
     width: 100%;
     height: auto;
-    margin-left: 15%;
+    margin-left: 300px;
 }
-.video-icon{
-    position:absolute;
-    top: 50%;
-    left: 35%;
-    font-size: 66px;
-    color:#E5BF4A;
-    
 
+.video-icon{
+    color:#0A0A0A;
+    font-size: 67px;
+    top:50%;
+    left:40%;
+margin-bottom:80%;
+    position:absolute;
+    
 }
 .dot{
-padding: 10px;
-border-color: #E5BF4A;
-top:40%;
-margin-right:100px ;
-list-style-type: none;
-text-decoration: none;
-color: #DFDFDF;
+    color: #0A0A0A;
+    font-weight: 100;
+    font-size: 13px;
+    margin-left: 25%;
 }
 #head{
     font-family: "poiret one",cursive;
@@ -255,9 +265,7 @@ color: #DFDFDF;
     text-align: center;
     font-size: 40px;
     font-weight: 400;
-    
-    
-    
+       
 }
 .stars{
     color:#E5BF4A;
@@ -268,11 +276,14 @@ color: #DFDFDF;
     grid-template-columns: auto auto auto ;
    background-color: #0A0A0A;
    padding: 10px;
+   border-left: none;
+   border-right: none;
+
 }
 .grid-item{
     border: 0.2px solid rgb(100, 95, 95);
-    border-left: none;
     padding: 30px;
+    border-left: none;
     font-size: 24px;
     text-align: center;
     color: #DFDFDF;
@@ -608,4 +619,13 @@ margin-bottom:;
     color: #E5BF4A;
     font-weight: 100;
     text-align: center;
+}
+.grid-container2{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    grid-row: auto;
+}
+.grid-item1{
+    display: grid;
+    grid-template-columns: auto auto auto auto  ;
 }
