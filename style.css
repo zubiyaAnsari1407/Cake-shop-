@@ -2,6 +2,7 @@ body{
     background-color: black;
     overflow-x: hidden;
 }
+
 #cake{
     font-family:"Meow Script", cursive;
     list-style: none;
@@ -52,6 +53,7 @@ margin-left:10px;
 }
 #cake {
     margin-right: 600px;
+    list-style-type: none;
 
 }
 
@@ -193,18 +195,7 @@ button:hover{
      margin-bottom: 10px; 
     margin-top: 30px;
 }
-/* #item1{
-    width: 26%;
-margin-left: 130px;
-margin-right: 70px;
-}
-#item2{
-    width: 26%;
-margin-right: 70px;
-}
-#item3{
-width: 26%;
-} */
+
 .image-text{
     font-family:"poiret one",cursive;
     font-weight: 800;
@@ -330,6 +321,7 @@ font-size: 40px;
     justify-content: center;
     flex-direction: row;
    align-items: center;
+   margin-bottom: 100px;
   
 }
 .h3{
@@ -363,12 +355,13 @@ font-size: 40px;
     font-size: 50px;
     font-weight: 200;
     line-height: 1.3;
-    margin-bottom: 12px;
+    margin-bottom: 50px;
     position: relative;
     text-align: center;
     color: #DFDFDF;
     text-transform: capitalize;
-    margin-top: 100px;
+  
+
 }
 .h4{
     font-family:"poiret one"cursive;
@@ -382,7 +375,7 @@ font-size: 40px;
     font-size: 23px;
     font-weight: 300;
     margin-top: 20px;
-
+      margin-bottom: 80px;
 }
 .insta2{
     margin-right:20px;
@@ -446,6 +439,7 @@ font-size: 40px;
     border:none;
     height: 2px;
     background-color: rgba(255, 255, 255, 0.2);
+    margin-bottom: 100px;
 }
 
 
@@ -457,140 +451,61 @@ font-size: 40px;
     margin-left: 10px;
     padding-left: 20px;
 } 
-/* 
-.lo{
-    margin-left: 1050px;
-    /* margin-top:-9%;} */
-.img-loc-icon
-{
-    margin-left: 1050px;
-    margin-top: -20px;
-    margin-bottom: 0.7px;
-    
+.lo-co-para{
+color: #fff;
+font-size: 16px;
+margin-bottom: 21px;
+line-height: 1.8;
+font-family: "jost",sans-serif;
 }
-/* .ph{
-    margin-left: 100px;
-} */
-/* 
-.img-ph-icon{
-    margin-left: 83%;  
-    margin-bottom: 100px; 
+
+.h3-loc-co{
+    color: #E5BF4A;
+    font-family: "poiret one",cursive;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 400;
 }
-.loc{
-color: #E5BF4A;
-font-size: 24px;
-font-weight: 400;
-font-family: "poiret one",cursive ;
-text-align:center;
-margin-left: 500px;
-margin-bottom:;
-}
-.add{
-    color: #DFDFDF;
+.loc-address-no{
     font-family: "jost",sans-serif;
     font-size: 16px;
-    margin-bottom:2%;
-    margin-left:60% ;
-    margin-top: -10px; */
-
-/* }
-.co{
-    font-family: "poiret one",cursive;
-    color: #E5BF4A;
-    font-size: 24px;
-    font-weight: 400;
-    text-align: right;
-    margin-right: 229px;
-    margin-top: -116px;
+    color: #fff;
+    line-height: 1.4;
+    font-weight: normal;
 }
-.phno{
-    color: #DFDFDF;
-   bottom: 10px;
-   margin-left: 81%;
+.location-contact-div{
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 60px;
 }
-.email{
-    color: #DFDFDF;
-      margin-left: 81%;
+.footer-section{
+    display:flex;
+    gap: 30px ;
+    margin-right: 4px;
 }
-.address{
-    /* display:flex; */
-    /* justify-content: space-evenly;} */
- 
-
-    .address {
-        padding: 20px;
-    }
-    
-    .txt {
-        color: #DFDFDF;
-        margin: 0;
-    }
-    
-    .contact-info {
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        gap: 100px;
-        margin-top: 50px;
-    }
-    
-    .info-item {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .icon {
-        width: 20px;
-        height: 20px;
-        margin-bottom: 20px;
-    }
-    
-    .info-text {
-        text-align: center;
-    }
-    
-    .loc, .co {
-        color: #E5BF4A;
-        font-size: 24px;
-        font-weight: 400;
-        font-family: "Poiret One", cursive;
-        margin: 0;
-    }
-    
-    .add, .phno, .email {
-        color: #DFDFDF;
-        font-family: "Jost", sans-serif;
-        font-size: 16px;
-        margin: 5px 0;
-    }
-
-
-
 .btn-footer1{
     background-color:#0A0A0A;
     color: #DFDFDF;
     font-size: 17px;
     font-family: "jost",sans-serif;
     border:1px solid rgba(255, 255, 255, 0.2);
-     margin-left
-     :100px;
-
+     margin-left:100px;
+     padding: 14px 36px 13px 39px;
+     margin-bottom: 10px;
 }
 .btn-footer1:hover{
     background-color: #0A0A0A;
     border-color:#E5BF4A ;
     color: #E5BF4A;
-
 }
 .btn-footer2{
-    
-    background-color:#0A0A0A;
+     background-color:#0A0A0A;
     color: #DFDFDF;
     font-size: 17px;
     font-family: "jost",sans-serif;
     border:1px solid rgba(255, 255, 255, 0.2);
-     /* margin-left:100px; */
+     padding: 14px 36px 13px 39px;
+    margin-bottom: 10px;
 }
 .btn-footer3{
     background-color:#0A0A0A;
@@ -598,28 +513,33 @@ margin-bottom:;
     font-size: 17px;
     font-family: "jost",sans-serif;
     border:1px solid rgba(255, 255, 255, 0.2);
-     /* margin-left:100px; */
+     padding: 14px 36px 13px 39px;
+     margin-bottom: 10px;   
 }
+
 .line2{
     border:none;
     height: 2px;
     background-color: rgba(255, 255, 255, 0.2);
+    margin-top: 60px;
 }
-.copyright{
-    color: #DFDFDF;
-    font-size: 14px;
+ .footer{
+    color: #fff;
     font-weight: 400;
-    line-height: 6;
+    font-family: "jost",sans-serif;
+    line-height: 2;
+    font-size: 14px;
     text-align: center;
-}
-.hert{
+ }
+ .hert{
     color: #E5BF4A;
-}
-#cpy{
+    font-weight: 900;
+ }
+ .footer small {
     color: #E5BF4A;
-    font-weight: 100;
-    text-align: center;
-}
+    font-weight: 400;
+    font-size:14px ;
+ }
 .grid-container2{
     display: grid;
     grid-template-columns: auto auto auto auto ;
@@ -628,4 +548,48 @@ margin-bottom:;
 .grid-item1{
     display: grid;
     grid-template-columns: auto auto auto auto  ;
+}
+.recipe-flex{
+    display: flex;
+   margin-left: 30px;
+   margin-bottom: 150px; 
+}
+.h3-recipe{
+    color: #E5BF4A;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-family: "poiret one",cursive;
+    margin-left: 30px;    
+}
+.recipe-para{
+    font-family: "jost",sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fff;
+    margin-bottom: 30px;
+    font-weight: 300;
+    margin-left: 30px;  
+}
+.recipe1-flex
+{
+  border: 1px solid rgb(100, 95, 95);
+  box-sizing: border-box;
+  padding: 60px 40px;
+  height: 470px;
+}
+.recipe2-flex
+{
+  border: 1px solid rgb(100, 95, 95);
+  padding: 60px 40px;
+    height: 470px;
+   box-sizing: border-box;
+}
+.h3-learn{
+    color: #E5BF4A;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-left: 30px;
 }
