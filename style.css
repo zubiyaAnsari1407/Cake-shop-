@@ -238,7 +238,7 @@ button:hover{
 }
 
 .video-icon{
-    color:#0A0A0A;
+    color:#DFDFDF;
     font-size: 67px;
     top:50%;
     left:40%;
@@ -682,7 +682,7 @@ font-family: "jost",sans-serif;
 
     .blogs-container {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
     }
 
     .blog-section {
