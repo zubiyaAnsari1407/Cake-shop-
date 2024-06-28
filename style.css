@@ -16,13 +16,14 @@ li{
     list-style: none;
     align-items: flex-start;
 }
-ul{
+ul {
     display: flex;
     list-style-type: none;
     justify-content:space-evenly;
     padding: 9px;
     text-align: center;
 }
+
 .call{
    background-color:#0A0A0A;
     color: #E5BF4A;
@@ -77,6 +78,7 @@ text-transform: uppercase;
 .navbar li{
     margin: 1px 60px;
 }
+
 #home {
     margin-right: 90px;
     margin-left: 200px;
@@ -593,67 +595,22 @@ font-family: "jost",sans-serif;
     text-decoration: underline;
     margin-left: 30px;
 }
-@media (max-width: 768px) {
-    .header-logos ul {
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .navbar {
+@media only screen and (max-width: 768px) {
+    .navbar ul {
         flex-direction: column;
+        padding: 0;
     }
 
     .navbar li {
         margin: 10px 0;
     }
 
-    .background-image img {
-        width: 100%;
-        height: auto;
-    }
-
-    .text-block {
-        top: 200px;
-        left: 10px;
-        font-size: 30px;
-    }
-
-    .btn-1 {
-        top: 400px;
-        left: 10px;
-        padding: 10px 20px;
-    }
-
-    .writting-section-1 {
-        font-size: 25px;
-    }
-
-    #heading {
-        font-size: 20px;
-        margin-left: 10px;
-    }
-
-    #random-text {
-        font-size: 18px;
-        margin-left: 10px;
-    }
-
     .container {
         flex-direction: column;
-        align-items: center;
     }
 
     .container img {
-        width: 100%;
-        height: auto;
-    }
-
-    .image-container {
-        flex-direction: column;
-    }
-
-    .video-preview-image {
-        margin-left: 0;
         width: 100%;
     }
 
@@ -661,124 +618,74 @@ font-family: "jost",sans-serif;
         grid-template-columns: 1fr;
     }
 
+    .btn-1 {
+        top: 400px;
+        left: 20px;
+    }
+
+    .text-block {
+        top: 300px;
+        font-size: 40px;
+    }
+
+    #heading {
+        margin-left: 10px;
+    }
+
     .blogs-container {
         flex-direction: column;
+        align-items: flex-start;
     }
 
-    .recipe-flex {
-        flex-direction: column;
-    }
-
-    .image-items2 {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .shop-name {
-        margin-left: 0;
-    }
-
-    .home, .ab, .item, .bg, .con {
-        margin-left: 0;
-    }
-
-    .footer-section {
-        flex-direction: column;
-        align-items: center;
+    .blog-section {
+        margin-bottom: 10px;
     }
 }
 
-@media (max-width: 480px) {
-    .header-logos ul {
+@media only screen and (max-width: 576px) {
+    .navbar ul {
         flex-direction: column;
-        align-items: center;
-    }
-
-    .navbar {
-        flex-direction: column;
+        padding: 0;
     }
 
     .navbar li {
         margin: 10px 0;
     }
 
-    .background-image img {
-        width: 100%;
-        height: auto;
+    .container {
+        flex-direction: column;
     }
 
-    .text-block {
-        top: 150px;
-        left: 10px;
-        font-size: 20px;
+    .container img {
+        width: 100%;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
     }
 
     .btn-1 {
         top: 300px;
         left: 10px;
-        padding: 8px 16px;
+        padding: 15px 30px;
+        font-size: 12px;
     }
 
-    .writting-section-1 {
-        font-size: 20px;
+    .text-block {
+        top: 250px;
+        font-size: 30px;
     }
 
     #heading {
-        font-size: 16px;
         margin-left: 5px;
-    }
-
-    #random-text {
-        font-size: 16px;
-        margin-left: 5px;
-    }
-
-    .container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .container img {
-        width: 100%;
-        height: auto;
-    }
-
-    .image-container {
-        flex-direction: column;
-    }
-
-    .video-preview-image {
-        margin-left: 0;
-        width: 100%;
-    }
-
-    .grid-container {
-        grid-template-columns: 1fr;
     }
 
     .blogs-container {
         flex-direction: column;
+        align-items: flex-start;
     }
 
-    .recipe-flex {
-        flex-direction: column;
-    }
-
-    .image-items2 {
-        flex-direction: column;
-        gap: 5px;
-    }
-
-    .shop-name {
-        margin-left: 0;
-    }
-
-    .home, .ab, .item, .bg, .con {
-        margin-left: 0;
-    }
-
-    .footer-section {
-        flex-direction: column;
-        align-items: center;
+    .blog-section {
+        margin-bottom: 5px;
     }
 }
