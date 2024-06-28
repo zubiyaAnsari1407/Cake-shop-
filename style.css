@@ -593,3 +593,192 @@ font-family: "jost",sans-serif;
     text-decoration: underline;
     margin-left: 30px;
 }
+@media (max-width: 768px) {
+    .header-logos ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar li {
+        margin: 10px 0;
+    }
+
+    .background-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .text-block {
+        top: 200px;
+        left: 10px;
+        font-size: 30px;
+    }
+
+    .btn-1 {
+        top: 400px;
+        left: 10px;
+        padding: 10px 20px;
+    }
+
+    .writting-section-1 {
+        font-size: 25px;
+    }
+
+    #heading {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    #random-text {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .image-container {
+        flex-direction: column;
+    }
+
+    .video-preview-image {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .blogs-container {
+        flex-direction: column;
+    }
+
+    .recipe-flex {
+        flex-direction: column;
+    }
+
+    .image-items2 {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .shop-name {
+        margin-left: 0;
+    }
+
+    .home, .ab, .item, .bg, .con {
+        margin-left: 0;
+    }
+
+    .footer-section {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-logos ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar li {
+        margin: 10px 0;
+    }
+
+    .background-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .text-block {
+        top: 150px;
+        left: 10px;
+        font-size: 20px;
+    }
+
+    .btn-1 {
+        top: 300px;
+        left: 10px;
+        padding: 8px 16px;
+    }
+
+    .writting-section-1 {
+        font-size: 20px;
+    }
+
+    #heading {
+        font-size: 16px;
+        margin-left: 5px;
+    }
+
+    #random-text {
+        font-size: 16px;
+        margin-left: 5px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .image-container {
+        flex-direction: column;
+    }
+
+    .video-preview-image {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .blogs-container {
+        flex-direction: column;
+    }
+
+    .recipe-flex {
+        flex-direction: column;
+    }
+
+    .image-items2 {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .shop-name {
+        margin-left: 0;
+    }
+
+    .home, .ab, .item, .bg, .con {
+        margin-left: 0;
+    }
+
+    .footer-section {
+        flex-direction: column;
+        align-items: center;
+    }
+}
