@@ -595,101 +595,156 @@ font-family: "jost",sans-serif;
     text-decoration: underline;
     margin-left: 30px;
 }
-@media only screen and (max-width:600px){
-    body {
-        background-color:#0A0A0A;
+@media (max-width: 767px) {
+    .header-logos ul {
+        flex-direction: column;
+        align-items: center;
     }
-    h1 {
-        font-size: 24px;
+
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
     }
-    p{
+
+    .background-image {
+        height: auto;
+    }
+
+    .text-block {
+        font-size: 40px;
+        left: 20px;
+        top: 200px;
+    }
+
+    .btn-1 {
+        top: 400px;
+        left: 20px;
+        padding: 10px 20px;
+    }
+
+    .writting-section-1 {
+        font-size: 20px;
+    }
+
+    #heading {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    #random-text {
         font-size: 16px;
-    }
-    .container {
-        width: 100%;
-        padding: 10px;
-    }
-    .recipe2-flex{
-        height: 60px;
-        padding:40px ;
-        font-size: 8px;
-    }
-    #cake{
-        
-        width: 30px;
-        margin-right:100px;
-        height: 10px;
-        width: 7px;
-    }
-    .facebook{
-        margin-left: 2px;
-    }
-    .insta{
-        margin-left: 2px ;
-    }
-    .twitter{
-        margin-left: 2PX;
-    }
-    .video-preview-image{
         margin-left: 10px;
-        height: 90px;
-        width: 90px;
     }
-    .recipe-flex{
-     flex-direction: column;
-     flex-wrap: wrap;
-    }
-    .recipe1-flex{
-        flex-direction: column;
-        flex-wrap: wrap;
-        height: 300px;
-    }
-    .recipe2-flex{
-        flex-direction: column;
-        flex-wrap: wrap;
-        height: 300px;
-    }
-    .blog1{
-        height: 100%;
-        width: 100%;
-    }
-    .blog2{
-        height: 100%;
-        width: 100%;
-    }
-    .header-logos ul{
-        padding: 5px;
-    }
-    .call{
-        font-size: 8px;
-       
-    }
-    .navbar{
-        font-size: 6px;
 
+    .container img {
+        width: 100%;
+        height: auto;
     }
-    #home{
-        margin-left: 3px;
-        top:10px;
-    }
-    #ca{
 
+    .image-container {
+        flex-direction: column;
     }
-    
+
+    .video-preview-image {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .blogs-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .recipe-flex {
+        flex-direction: column;
+    }
+
+    .image-items2 {
+        flex-direction: column;
+    }
+
+    .shop-name, .home, .item, .ab, .bg, .con {
+        margin-left: 0;
+        text-align: center;
+    }
 }
-@media only screen and (min-width:600px)and(max-width:1024px){
-    body{
-        background-color: #0A0A0A;
+
+/* Tablet Styles (iPad) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar ul {
+        flex-direction: row;
+        justify-content: space-around;
     }
-    h1 {
-        font-size: 28px;
+
+    .background-image {
+        height: auto;
     }
-    p{
-        font-size: 18px;
+
+    .text-block {
+        font-size: 50px;
+        left: 30px;
+        top: 300px;
     }
-    .container {
+
+    .btn-1 {
+        top: 500px;
+        left: 30px;
+        padding: 15px 30px;
+    }
+
+    .writting-section-1 {
+        font-size: 30px;
+    }
+
+    #heading {
+        font-size: 30px;
+        margin-left: 30px;
+    }
+
+    #random-text {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .container img {
         width: 80%;
-        margin: auto;
-        padding: 20px;
+        height: auto;
+    }
+
+    .image-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .video-preview-image {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .blogs-container {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .recipe-flex {
+        flex-direction: column;
+    }
+
+    .image-items2 {
+        flex-direction: row;
+    }
+
+    .shop-name, .home, .item, .ab, .bg, .con {
+        margin-left: 0;
+        text-align: center;
     }
 }
