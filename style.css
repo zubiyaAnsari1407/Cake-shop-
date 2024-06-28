@@ -615,7 +615,11 @@ font-family: "jost",sans-serif;
         font-size: 8px;
     }
     #cake{
-        margin-left: 30px;
+        
+        width: 30px;
+        margin-right:100px;
+        height: 10px;
+        width: 7px;
     }
     .facebook{
         margin-left: 2px;
@@ -646,13 +650,32 @@ font-family: "jost",sans-serif;
         height: 300px;
     }
     .blog1{
-        height: 100px;
-        width: 100px;
+        height: 100%;
+        width: 100%;
     }
     .blog2{
-        height: 100px;
-        width: 100px;
+        height: 100%;
+        width: 100%;
     }
+    .header-logos ul{
+        padding: 5px;
+    }
+    .call{
+        font-size: 8px;
+       
+    }
+    .navbar{
+        font-size: 6px;
+
+    }
+    #home{
+        margin-left: 3px;
+        top:10px;
+    }
+    #ca{
+
+    }
+    
 }
 @media only screen and (min-width:600px)and(max-width:1024px){
     body{
