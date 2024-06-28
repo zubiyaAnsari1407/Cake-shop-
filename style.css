@@ -625,11 +625,11 @@ font-family: "jost",sans-serif;
         margin-left: 20px;
     }
     #random-text{
-        font-size:9px;
+        font-size:16px;
        margin-left: 10px;
         }
 .container img {
-    width: 50px;
+    width: 100%;
     height: auto;
 }
 .image-container{
@@ -668,5 +668,71 @@ font-family: "jost",sans-serif;
 .location-contact-div{
     flex-direction: column;
 }
+}
+@media(min-width:768) and (max-width:1024px)
+{
+    .navbar ul{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .background-image{
+        height: auto;
+    }
+    .text-block{
+        font-size: 50px;
+        left: 30px;
+        top:300px;
+    }
+
+
+.btn-1{
+    top:500px;
+    left:30px;
+
+}
+
+.writting-section-1{
+    font-size: 30px;
+}
+#heading{
+    font-size: 30px;
+    margin-left: 30px;
+}
+#random-text{
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.container img {
+    width: 80%;
+    height: auto;
+}
+.image-container{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.video-preview-image{
+    width: 80%;
+    margin-left: 10%;
+}
+.grid-container{
+    grid-template-columns: 1fr 1fr;
+}
+.blogs-container{
+flex-direction: row;
+justify-content: space-around;
+}
+.recipe-flex{
+    flex-direction: column;
+}
+.image-items2{
+    flex-direction: row;
+}
+.shop-name, .home , .item , .ab , .bg , .con {
+    margin-left: 0;
+    text-align: center;
+}
+
 }
 
