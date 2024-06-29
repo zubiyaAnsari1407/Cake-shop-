@@ -629,8 +629,9 @@ font-family: "jost",sans-serif;
 }
 
 .container img {
-    width: 80%;
+    width: 100%;
     height: auto;
+    margin-left: 10px;
 }
 #cake {
     margin-left: 6px;
@@ -672,6 +673,7 @@ font-family: "jost",sans-serif;
 .dot{
     margin-left: 10px;
 }
+
 .grid-container{
     grid-template-columns: 1 fr;
 }
