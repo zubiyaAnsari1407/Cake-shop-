@@ -620,9 +620,14 @@ font-family: "jost",sans-serif;
     margin-left: 20px;
 }
 #random-text{
-    font-size: 16px;
-    margin-left: 20px;
+    font-size: medium;
+    margin-left: 10px;
+
 }
+.container{
+    flex-direction: column;
+}
+
 .container img {
     width: 80%;
     height: auto;
