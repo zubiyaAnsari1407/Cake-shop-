@@ -587,10 +587,11 @@ font-family: "jost",sans-serif;
     font-size: 15px;
     text-transform: uppercase;
     text-decoration: underline;
-    margin-left: 30px;}
+    margin-left: 30px;
+}
 
     /* Media Query for mobile */ 
-  @media screen and (max-width:767px){
+  @media screen and (max-width:768px){
 
     .header-logos ul {
         flex-direction: row ;
@@ -785,10 +786,14 @@ grid-template-columns: 1fr;
     border: 0.3px solid #E5BF4A;
     font-size: xx-small;
 }
+.footer-section{
+    margin-bottom: 500px;
+}
+
 }
 
 /* media query for ipad */
-/* @media screen and  (max-width:1024px){
+ @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
     .call{
     margin-top:auto;
     padding: 22px 36px;
@@ -923,4 +928,16 @@ grid-template-columns: 1fr;
     display: grid;
     grid-template-rows:auto auto ;
 }
-} */
+.footer-section{
+    margin-bottom: 500px;
+}
+.btn-footer1{
+    margin-left:100px;
+}
+.btn-footer2{
+    margin-left: 100px;
+}
+.btn-footer3{
+    margin-left: 100px;
+}
+} 
