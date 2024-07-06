@@ -899,6 +899,8 @@ grid-template-columns: 1fr;
 }
 .video-preview-image{
     margin-left: 0%;
+    width: 10px;
+    height: 10px;
 }
 .icon{
     margin-left: 80px;
