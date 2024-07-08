@@ -387,9 +387,7 @@ font-size: 40px;
     margin-top: 4%;
     width: 20px;
     margin-left: 40px;
-
 }
-
 .home {
     font-family: "Jost", sans-serif;
     font-size: 15px;
@@ -899,8 +897,7 @@ grid-template-columns: 1fr;
 }
 .video-preview-image{
     margin-left: 0%;
-    width: 10px;
-    height: 10px;
+  
 }
 .icon{
     margin-left: 80px;
