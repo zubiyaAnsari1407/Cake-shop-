@@ -1,7 +1,56 @@
 body{
     background-color: black;
+    color: #DFDFDF;
     overflow-x: hidden;
 }
+/* #toggle-mode{
+    font-size: 35px;
+    cursor: pointer;
+    position: absolute; */
+    /* top: 50%; */
+    /* left: 10%;
+    transform: translate(-50%, -50%);
+ } */
+ :root {
+    --dark: #070707;
+    /* --light: #f7f7f7; */
+    --golden: #e5bf4a;
+}
+
+/* Example usage of the CSS variables */
+body {
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+.text-block p {
+    color: var(--light); /* This will be updated by JS */
+}
+
+.btn-1 {
+    background-color: var(--golden);
+    color: var(--dark);
+    border: 1px solid var(--golden); /* This will be updated by JS */
+}
+
+.list .facebook,
+.list .insta,
+.list .twitter {
+    color: aliceblue; /* Initial color, will be updated by JS */
+}
+
+/* Ensure buttons and icons respond to the mode changes */
+#toggle-mode i {
+    color: var(--light);
+}
+#toggle-mode {
+    width: 90px;
+    position: absolute;
+    top:27px;
+    margin-left: 1500px;
+    border: 1px double #E5BF4A;
+}
+
 
 #cake{
     font-family:"Meow Script", cursive;
@@ -197,7 +246,19 @@ button:hover{
     margin-top: 30px;
 }
 
-.image-text{
+.image-text1{
+    font-family:"poiret one",cursive;
+    font-weight: 800;
+    color: #DFDFDF;
+    font-size: 24px ;
+}
+.image-text2{
+    font-family:"poiret one",cursive;
+    font-weight: 800;
+    color: #DFDFDF;
+    font-size: 24px ;
+}
+.image-text3{
     font-family:"poiret one",cursive;
     font-weight: 800;
     color: #DFDFDF;
@@ -217,7 +278,19 @@ button:hover{
     width: 100%;
     height: auto;
 }
-.amount{
+.amount1{
+    color: #E5BF4A;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.amount2{
+    color: #E5BF4A;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.amount3{
     color: #E5BF4A;
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
@@ -508,7 +581,8 @@ font-family: "jost",sans-serif;
     font-family: "jost",sans-serif;
     border:1px solid rgba(255, 255, 255, 0.2);
      padding: 14px 36px 13px 39px;
-     margin-bottom: 10px;   
+     margin-bottom: 10px; 
+       
 }
 
 .line2{
@@ -557,6 +631,7 @@ font-family: "jost",sans-serif;
     font-family: "poiret one",cursive;
     margin-left: 30px;    
 }
+
 .recipe-para{
     font-family: "jost",sans-serif;
     font-size: 18px;
