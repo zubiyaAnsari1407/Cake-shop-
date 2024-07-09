@@ -106,7 +106,7 @@ function toggleMode() {
        btnfooter3.style.borderColor='grey';
        line2.style.backgroundColor='grey';
        lastline.style.color = 'black';
-       myname.style.color = 'goldenrod';      
+       myname.style.color = 'goldenrod';    
     } else {
         btn.innerHTML = "<i class=\"fa-solid fa-sun\"></i>";
         defaultMode = "dark";
