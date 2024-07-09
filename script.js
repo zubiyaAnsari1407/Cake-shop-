@@ -44,9 +44,6 @@ let btnfooter3 = document.querySelector('.btn-footer3');
 let line2 = document.querySelector('.line2'); 
 let lastline = document.querySelector('.copyright');
 let myname = document.querySelector('small');
-
-
-
 function toggleMode() {
     let btn = document.querySelector('#toggle-mode');
     if (defaultMode === "dark") {
@@ -109,11 +106,7 @@ function toggleMode() {
        btnfooter3.style.borderColor='grey';
        line2.style.backgroundColor='grey';
        lastline.style.color = 'black';
-       myname.style.color = 'goldenrod';
-          
-    
-       
-       
+       myname.style.color = 'goldenrod';      
     } else {
         btn.innerHTML = "<i class=\"fa-solid fa-sun\"></i>";
         defaultMode = "dark";
@@ -159,8 +152,6 @@ function toggleMode() {
         contact2.style.color = 'white';
         lastline.style.color = 'white';
         myname.style.color = 'goldenrod';
- 
     }
 }
-
 document.querySelector('#toggle-mode').addEventListener('click', toggleMode);

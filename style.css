@@ -3,43 +3,35 @@ body{
     color: #DFDFDF;
     overflow-x: hidden;
 }
-/* #toggle-mode{
-    font-size: 35px;
-    cursor: pointer;
-    position: absolute; */
-    /* top: 50%; */
-    /* left: 10%;
-    transform: translate(-50%, -50%);
- } */
+
  :root {
     --dark: #070707;
     /* --light: #f7f7f7; */
     --golden: #e5bf4a;
 }
 
-/* Example usage of the CSS variables */
 body {
     background-color: var(--dark);
     color: var(--light);
 }
 
 .text-block p {
-    color: var(--light); /* This will be updated by JS */
+    color: var(--light); 
 }
 
 .btn-1 {
     background-color: var(--golden);
     color: var(--dark);
-    border: 1px solid var(--golden); /* This will be updated by JS */
+    border: 1px solid var(--golden); 
 }
 
 .list .facebook,
 .list .insta,
 .list .twitter {
-    color: aliceblue; /* Initial color, will be updated by JS */
+    color: aliceblue; 
 }
 
-/* Ensure buttons and icons respond to the mode changes */
+
 #toggle-mode i {
     color: var(--light);
 }
@@ -47,7 +39,7 @@ body {
     width: 90px;
     position: absolute;
     top:27px;
-    margin-left: 1500px;
+    margin-left: 200px;
     border: 1px double #E5BF4A;
 }
 
@@ -666,6 +658,9 @@ font-family: "jost",sans-serif;
     /* Media Query for mobile */ 
   @media screen and (max-width:768px){
 
+     #toggle-mode{
+        margin-top: 33px;
+     }
     .header-logos ul {
         flex-direction: row ;
         justify-content: space-between;
@@ -867,6 +862,9 @@ grid-template-columns: 1fr;
 
 /* media query for ipad */
  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+     #toggle-mode{
+        margin-top: 44px;
+     }
     .call{
     margin-top:auto;
     padding: 22px 36px;
