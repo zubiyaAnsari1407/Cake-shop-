@@ -152,6 +152,11 @@ function toggleMode() {
         contact2.style.color = 'white';
         lastline.style.color = 'white';
         myname.style.color = 'goldenrod';
+        home.style.color='white';
+        about.style.color='white'; 
+        blog2.style.color='white';
+        contact.style.color='white';
+        item.style.color= 'white';
     }
 }
 document.querySelector('#toggle-mode').addEventListener('click', toggleMode);
